@@ -1,16 +1,19 @@
-import "./lib/lib";
 import $ from "./lib/lib";
 
 $("button").on("click", function () {
 	$("div").eq(2).toggleClass("active");
 });
 
+console.log($("button").html())
+
+// console.log($(".active").index())
+
 $("div").click(function () {
-	console.log($(this).index());
+	// console.log($(this));
 });
 
 // console.log($("div").eq(2).find(".some"));
-console.log($(".some").closest(".findmef").addClass("sfefew"));
+// console.log($(".some").closest(".findme").addClass("sfefew"));
 
 // $(".active").setAttr("data-core", "Hello World");
 // const attr = $(".active").getAttr("data-core");

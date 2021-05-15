@@ -2228,15 +2228,15 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.click = function (handle
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/lib */ "./src/js/lib/lib.js");
 
-
 Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])("button").on("click", function () {
   Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])("div").eq(2).toggleClass("active");
 });
-Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])("div").click(function () {
-  console.log(Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])(this).index());
-}); // console.log($("div").eq(2).find(".some"));
+console.log(Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])("button").html()); // console.log($(".active").index())
 
-console.log(Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])(".some").closest(".findmef").addClass("sfefew")); // $(".active").setAttr("data-core", "Hello World");
+Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])("div").click(function () {// console.log($(this));
+}); // console.log($("div").eq(2).find(".some"));
+// console.log($(".some").closest(".findme").addClass("sfefew"));
+// $(".active").setAttr("data-core", "Hello World");
 // const attr = $(".active").getAttr("data-core");
 // console.log(attr);
 // console.log($("button").html("Hello"));
